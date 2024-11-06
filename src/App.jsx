@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       
-      <Router>
+      <Router basename='/live_realtime_chatapp_f'>
         <Routes>
         <Route exact path="/" element={<Join/>}/>
         <Route path="/chat" element={<Chat/>}/>
