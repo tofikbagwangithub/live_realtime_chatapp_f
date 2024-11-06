@@ -65,7 +65,7 @@ const Chat = () => {
         <div className='chatContainer'>
             <div className='header'>
                 <h2> <IoLogoWechat /> C-ChatRoom </h2>
-                <a href='/'> <img src={closeIcon} alt='crosspic'/></a>
+                <a href='/live_realtime_chatapp_f'> <img src={closeIcon} alt='crosspic'/></a>
             </div>
             <ReactScrollToBottom className='chatBox'> 
                 { messages.map((item, i) => <Message user={item.id===id ? '' : item.user} message={item.message} classs={item.id===id? 'right': 'left'}/>) }
