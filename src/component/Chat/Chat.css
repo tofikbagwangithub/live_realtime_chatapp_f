@@ -1,0 +1,87 @@
+.chatPage{
+    background-color: rgb(31,29,29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color: white;
+    height: 60%;
+    width: 50%;
+    
+}
+
+.header{
+    background-color: crimson;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header>h2{
+    color: white;
+    margin: 2.5vmax;
+    font-size: 1.5vmax;
+}
+.header img{
+    margin: 2.5vmax;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.header img:hover{
+    transform: scale(1.2);
+}
+
+.chatBox{
+    /* border: 0.1vmax solid black; */
+    height: 70%;
+    box-sizing: border-box;
+    background: url(../../images/wall.png);
+    
+}
+
+.inputBox{
+    border-top: 0.1vmax solid black;
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput{
+    background-color: white;
+    width: 80%;
+    border: none;
+    padding: 1vmax;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+}
+
+.chatBtn{
+    background-color: crimson;
+    width: 20%;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 1vmax;
+    margin: 0.2vmax;
+    transition: all 0.3s;
+}
+.chatBtn>img{
+    width: 2.5vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.chatBtn:hover{
+    background-color: rgb(156,13,42);
+}
+
+.chatBtn:hover img{
+    transform: translateX(10px);
+}
